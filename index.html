@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 侧边栏 -->
+        <aside class="sidebar">
+            <h1 class="app-title">Music app</h1>
+            
+            <div class="menu-list">
+                <h3 class="menu-title">Discover</h3>
+                <div class="menu-item active">
+                    <span class="material-icons">home</span>
+                    <span>Home</span>
+                </div>
+                <div class="menu-item">
+                    <span class="material-icons">search</span>
+                    <span>Browse</span>
+                </div>
+                <div class="menu-item">
+                    <span class="material-icons">radio</span>
+                    <span>Radio</span>
+                </div>
+            </div>
+            
+            <div class="menu-list">
+                <h3 class="menu-title">Library</h3>
+                <div class="menu-item">
+                    <span class="material-icons">list</span>
+                    <span>Playlists</span>
+                </div>
+                <div class="menu-item">
+                    <span class="material-icons">music_note</span>
+                    <span>Songs</span>
+                </div>
+                <div class="menu-item">
+                    <span class="material-icons">mood</span>
+                    <span>Personalized picks</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <!-- 导航控件 -->
+            <nav class="navigation">
+                <div class="segmented-control">
+                    <div class="segment-item active">Tab</div>
+                    <div class="segment-item">Tab</div>
+                    <div class="segment-item">Tab</div>
+                </div>
+                <button class="cta-button">Call to action</button>
+            </nav>
+
+            <!-- 标题区域 -->
+            <section class="title-section">
+                <h1>Title</h1>
+                <p class="subheading">Subheading</p>
+            </section>
+
+            <!-- 小型网格 -->
+            <section class="small-grid">
+                <div class="album">
+                    <div class="album-image" style="background-image: url('https://source.unsplash.com/random/300x300?music,album')"></div>
+                    <div class="album-info">
+                        <h3>Artist Name</h3>
+                        <p>R&B</p>
+                    </div>
+                </div>
+                <div class="album">
+                    <div class="album-image" style="background-image: url('https://source.unsplash.com/random/300x301?music,album')"></div>
+                    <div class="album-info">
+                        <h3>Artist Name</h3>
+                        <p>Indie pop</p>
+                    </div>
+                </div>
+                <div class="album">
+                    <div class="album-image" style="background-image: url('https://source.unsplash.com/random/300x302?music,album')"></div>
+                    <div class="album-info">
+                        <h3>Artist Name</h3>
+                        <p>Hip hop</p>
+                    </div>
+                </div>
+                <div class="album">
+                    <div class="album-image" style="background-image: url('https://source.unsplash.com/random/300x303?music,album')"></div>
+                    <div class="album-info">
+                        <h3>Artist Name</h3>
+                        <p>Electronic</p>
+                    </div>
+                </div>
+                <div class="album">
+                    <div class="album-image" style="background-image: url('https://source.unsplash.com/random/300x304?music,album')"></div>
+                    <div class="album-info">
+                        <h3>Artist Name</h3>
+                        <p>R&B</p>
+                    </div>
+                </div>
+                <div class="album">
+                    <div class="album-image" style="background-image: url('https://source.unsplash.com/random/300x305?music,album')"></div>
+                    <div class="album-info">
+                        <h3>Artist Name</h3>
+                        <p>Rock</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 第二个标题区域 -->
+            <section class="title-section">
+                <h1>Title</h1>
+                <p class="subheading">Subheading</p>
+            </section>
+
+            <!-- 大型网格 -->
+            <section class="large-grid">
+                <div class="card">
+                    <div class="playlist-cover">
+                        <span>Playlist 1</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Playlist 1</h3>
+                        <p>Description of playlist</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="playlist-cover yellow">
+                        <span>Playlist 2</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Playlist 2</h3>
+                        <p>Description of playlist</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="playlist-cover pink">
+                        <span>Playlist 3</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Playlist 2</h3>
+                        <p>Description of playlist</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="playlist-cover grey">
+                        <span>Playlist 4</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Playlist 2</h3>
+                        <p>Description of playlist</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
